@@ -84,7 +84,16 @@ class VKBot:
                                content_type="application/octet-stream")
                 
                 async with self._session.post(url, data=form) as resp:
-                    data = await resp.json(content_type=None)
+                    raw = await resp.text()
+                    if not raw or not raw.strip():
+                        logger.info(f"✅ [{method}] пустой ответ (файл отправлен)")
+                        return {"ok": True}
+                    try:
+                        import json as _json
+                        data = _json.loads(raw)
+                    except Exception:
+                        logger.warning(f"⚠️ [{method}] не-JSON ответ: {raw[:200]}")
+                        return {"ok": True, "raw": raw}
                     if not data.get("ok", False):
                         logger.warning(f"⚠️ API error [{method}]: {data}")
                     return data
