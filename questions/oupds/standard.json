@@ -1,0 +1,475 @@
+[
+  {
+    "question": "Какая была первая реалити-шоу на ТВ?",
+    "options": [
+      "Реальный мир",
+      "Выживший",
+      "Экстрим",
+      "Идол",
+      "Танцы"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Кто был первым победителем \"Выжившего\"?",
+    "options": [
+      "Ричард Хэтч",
+      "Боб Кроукли",
+      "Кейтлин",
+      "Тиффани",
+      "Адам"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какое шоу было снято более 40 сезонов?",
+    "options": [
+      "Американский Идол",
+      "Голос",
+      "Выжившие",
+      "Топ Модель",
+      "Танцы со звёздами"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Сколько сезонов в \"Голосе\"?",
+    "options": [
+      "25",
+      "20",
+      "15",
+      "30",
+      "10"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой судья известен в \"Америка имеет таланты\"?",
+    "options": [
+      "Саймон Коуэлл",
+      "Хауи Мандель",
+      "Мел Б",
+      "Габриэль Юнион",
+      "Тайра Бэнкс"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Когда началось шоу \"Top Model\"?",
+    "options": [
+      "2003",
+      "2000",
+      "2005",
+      "2001",
+      "2002"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой документальный фильм про Майка Тайсона?",
+    "options": [
+      "Майк Тайсон",
+      "Рок Боксёра",
+      "Чемпион",
+      "Король бокса",
+      "Удар молнии"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой британский шоу про кулинарию?",
+    "options": [
+      "MasterChef",
+      "Top Chef",
+      "Hell's Kitchen",
+      "Iron Chef",
+      "Chopped"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Что выигрывает участник в \"Кто хочет стать миллионером\"?",
+    "options": [
+      "Миллион рублей",
+      "Машину",
+      "Квартиру",
+      "Путёвку",
+      "Призы"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой размер приза в \"Поле чудес\"?",
+    "options": [
+      "Растущий",
+      "Фиксированный",
+      "Случайный",
+      "Минимальный",
+      "Максимальный"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой телесериал получил более 60 премий \"Эмми\"?",
+    "options": [
+      "Друзья",
+      "Сейнфелд",
+      "Игра престолов",
+      "Офис",
+      "Нарушители"
+    ],
+    "correct_answers": "3"
+  },
+  {
+    "question": "В каком году началась передача \"Что? Где? Когда?\"?",
+    "options": [
+      "1975",
+      "1980",
+      "1985",
+      "1990",
+      "1995"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой персонаж в сериале \"Очень странные дела\" обладает психокинезом?",
+    "options": [
+      "Одиннадцать",
+      "Майк Уилер",
+      "Лукас Синклер",
+      "Дастин Хендерсон",
+      "Джонатан Байерс"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал на Netflix получил огромную популярность в 2020?",
+    "options": [
+      "Королева Шахматной доски",
+      "Очень странные дела",
+      "Корона",
+      "Ведьмак",
+      "Пинкертоны"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Сколько сезонов в сериале \"Игра престолов\"?",
+    "options": [
+      "8",
+      "10",
+      "6",
+      "9",
+      "7"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой актёр играет главную роль в сериале \"Всегда солнечно\"?",
+    "options": [
+      "Гленн Хоуэртон",
+      "Дэнни ДеВито",
+      "Роб Макелхенни",
+      "Чарли Дей",
+      "Кейти Сакхофф"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Когда началась передача \"Поле чудес\" на НТВ?",
+    "options": [
+      "1992",
+      "1990",
+      "1995",
+      "1998",
+      "2000"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про ведьм получил популярность на Netflix?",
+    "options": [
+      "Сабрина",
+      "Witcher",
+      "Supernatural",
+      "American Horror",
+      "The Haunting"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой актёр сыграл Дэвида Бликсета в \"Twin Peaks\"?",
+    "options": [
+      "Кайл МакЛахлан",
+      "Дэвид Линч",
+      "Марк Фростъ",
+      "Лаура Палмер",
+      "Дейл Купер"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой документальный сериал про преступления?",
+    "options": [
+      "Making a Murderer",
+      "Tiger King",
+      "Don't F**k with Cats",
+      "The Tinder Swindler",
+      "Fyre"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какая передача выигрывала премию \"Золотой Глобус\" в 2024?",
+    "options": [
+      "Белый Лотос",
+      "Соперники",
+      "Истина",
+      "Кастинг",
+      "Успех"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "На каком канале выходит передача \"Голос\"?",
+    "options": [
+      "1 канал",
+      "ТНТ",
+      "Россия 1",
+      "НТВ",
+      "Пятый канал"
+    ],
+    "correct_answers": "2"
+  },
+  {
+    "question": "Какой британский конкурс талантов?",
+    "options": [
+      "Britain's Got Talent",
+      "The Voice",
+      "Top Gear",
+      "Dancing on Ice",
+      "The Great British Bake Off"
+    ],
+    "correct_answers": "1,5"
+  },
+  {
+    "question": "Какой реальности-шоу про ремонт?",
+    "options": [
+      "Fixer Upper",
+      "Home Improvement",
+      "The Home Edit",
+      "Queer Eye",
+      "Extreme Makeover"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой актёр известен из \"Breaking Bad\"?",
+    "options": [
+      "Брайан Крэнстон",
+      "Аарон Пол",
+      "Анна Ганн",
+      "Дин Норрис",
+      "Бобби Боденас"
+    ],
+    "correct_answers": "1,2"
+  },
+  {
+    "question": "В каком году началась передача \"Что? Где? Когда?\" на 1 канале?",
+    "options": [
+      "1975",
+      "1978",
+      "1980",
+      "1985",
+      "1990"
+    ],
+    "correct_answers": "2"
+  },
+  {
+    "question": "Какой актёр исполнил роль Гермионы в \"Гарри Поттере\"?",
+    "options": [
+      "Эмма Уотсон",
+      "Дэнниел Рэдклифф",
+      "Руперт Гринт",
+      "Люцис Малфой",
+      "Рон Уизли"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про кулинарию?",
+    "options": [
+      "The Cooking Show",
+      "MasterChef",
+      "Chop House",
+      "Kitchen Nightmares",
+      "Gordan's Kitchen"
+    ],
+    "correct_answers": "2,4"
+  },
+  {
+    "question": "Какой реалити-шоу про моду?",
+    "options": [
+      "Project Runway",
+      "America's Next Top Model",
+      "The Fashion Police",
+      "Style Master",
+      "Fashion Designer"
+    ],
+    "correct_answers": "1,2"
+  },
+  {
+    "question": "Какой сериал про врачей?",
+    "options": [
+      "Grey's Anatomy",
+      "House",
+      "ER",
+      "Scrubs",
+      "The Resident"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про детективов?",
+    "options": [
+      "Brooklyn Nine-Nine",
+      "The Wire",
+      "True Detective",
+      "Line of Duty",
+      "Homicide Life"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой актёр из сериала \"LOST\"?",
+    "options": [
+      "Мэттью Фоксъ",
+      "Джош Холлоуэй",
+      "Эванджелин Лиллс",
+      "Маргарет Рэйд",
+      "Яджира Мартинес"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про науку?",
+    "options": [
+      "The Big Bang Theory",
+      "Young Sheldon",
+      "Flash",
+      "Arrow",
+      "Supergirl"
+    ],
+    "correct_answers": "1,2"
+  },
+  {
+    "question": "Какой сериал про журналистику?",
+    "options": [
+      "Anchorman",
+      "The Morning Show",
+      "Newsroom",
+      "Press",
+      "Deadline"
+    ],
+    "correct_answers": "3,4"
+  },
+  {
+    "question": "Какой реалити-шоу про готовку?",
+    "options": [
+      "Hell's Kitchen",
+      "MasterChef",
+      "Top Chef",
+      "The Great British Bake Off",
+      "Iron Chef"
+    ],
+    "correct_answers": "1,2,3,4,5"
+  },
+  {
+    "question": "На каком канале выходит \"Орёл и Решка\"?",
+    "options": [
+      "ТНТ",
+      "1 канал",
+      "ТВ3",
+      "Культура",
+      "СТС"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про музыку вышел в 2020?",
+    "options": [
+      "Поёт вся Россия",
+      "Песни",
+      "Ноты",
+      "Мелодия",
+      "Голос"
+    ],
+    "correct_answers": "5"
+  },
+  {
+    "question": "Какой актёр из \"Stranger Things\"?",
+    "options": [
+      "Миллис Бобби Браун",
+      "Кэм Чатер",
+      "Карена Капур",
+      "Виноны Райдър",
+      "Давид Харбор"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про приключения?",
+    "options": [
+      "Lost",
+      "The 100",
+      "Survivors",
+      "The Last of Us",
+      "The Expanse"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой документальный фильм про животных?",
+    "options": [
+      "Planet Earth",
+      "Our Planet",
+      "Life",
+      "Frozen Planet",
+      "The Hunt"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой сериал про магию?",
+    "options": [
+      "The Witcher",
+      "Charmed",
+      "Buffy",
+      "Sabrina",
+      "Constantine"
+    ],
+    "correct_answers": "1"
+  },
+  {
+    "question": "Какой реалити-шоу про свадьбы?",
+    "options": [
+      "Say Yes to the Dress",
+      "Four Weddings",
+      "Love Island",
+      "The Bachelor",
+      "Married at First Sight"
+    ],
+    "correct_answers": "1,5"
+  },
+  {
+    "question": "На каком канале выходит \"Голос. Дети\"?",
+    "options": [
+      "ТНТ",
+      "1 канал",
+      "ТВ3",
+      "Россия 1",
+      "НТВ"
+    ],
+    "correct_answers": "1"
+  }
+]
