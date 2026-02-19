@@ -1,0 +1,21 @@
+# VK Workspace ФССП Тест-бот — зависимости
+
+# HTTP-клиент (замена aiogram)
+aiohttp>=3.9.0
+
+# Модели данных
+pydantic>=2.9.2
+pydantic-settings>=2.5.2
+
+# База данных для статистики
+aiosqlite>=0.19.0
+
+# PDF сертификаты
+reportlab>=4.2.2
+
+# Переменные окружения (для локальной разработки)
+python-dotenv>=1.0.1
+
+# Шрифты для PDF:
+# Ubuntu/Debian/Bothost: sudo apt install fonts-dejavu-core
+# Или используйте встроенный DejaVuSans.ttf из папки library/fonts/
