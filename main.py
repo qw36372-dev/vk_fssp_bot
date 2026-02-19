@@ -231,7 +231,24 @@ async def polling_loop(bot: VKBot):
                 logger.warning(f"⚠️ Нет ответа от API, ждём {wait}s")
                 await asyncio.sleep(wait)
                 continue
-            
+
+            if not resp.get("ok", False):
+                error_count += 1
+                description = resp.get("description", "unknown error")
+                wait = min(2 ** error_count, 60)
+                logger.error(
+                    f"❌ API вернул ok=False: {description}. "
+                    f"Ждём {wait}s (попытка {error_count})"
+                )
+                if "Invalid token" in description:
+                    logger.critical(
+                        "❌ ТОКЕН ОТКЛОНЁН СЕРВЕРОМ. "
+                        "Проверьте: 1) переменную API_TOKEN на bothost.ru, "
+                        "2) переменную API_URL (для VK Workspace укажите URL вашего сервера)"
+                    )
+                await asyncio.sleep(wait)
+                continue
+
             error_count = 0  # сбрасываем счётчик ошибок
             
             events = resp.get("events", [])
@@ -275,19 +292,26 @@ async def polling_loop(bot: VKBot):
 # ─────────────────────────────────────────────────────────────────────── #
 async def main():
     if not settings.api_token:
-        logger.error("❌ API_TOKEN не установлен!")
+        logger.error("❌ API_TOKEN не установлен! Добавьте переменную окружения API_TOKEN на bothost.ru")
         sys.exit(1)
-    
+
+    token_preview = f"{settings.api_token[:4]}...{settings.api_token[-4:]}" if len(settings.api_token) > 8 else "***"
+    logger.info(f"🔑 API_TOKEN загружен: {token_preview} (длина: {len(settings.api_token)})")
+    logger.info(f"🌐 API_URL: {settings.api_url}")
+
     bot = VKBot(token=settings.api_token, api_url=settings.api_url)
     await bot.start()
-    
+
     # Проверка соединения
     info = await bot.self_get()
     if info and info.get("ok"):
         nick = info.get("nick", "unknown")
         logger.info(f"✅ Бот авторизован: @{nick}")
     else:
-        logger.warning("⚠️ Не удалось получить информацию о боте, продолжаем...")
+        desc = (info.get("description", "нет ответа") if info else "нет ответа")
+        logger.error("❌ Авторизация не прошла: %s", desc)
+        logger.error("   Проверьте API_TOKEN и API_URL на bothost.ru.")
+        logger.error("   Для VK Workspace задайте API_URL=https://your-server/bot/v1")
     
     # Инициализация БД
     await stats_manager.init_db()
